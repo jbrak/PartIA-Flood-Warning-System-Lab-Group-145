@@ -36,4 +36,4 @@ def test_build_station_list():
     assert len(dates10) == len(levels10)
     #assert len(dates10) > len(levels2)
 
-    print(dates10, levels2)
+    print(len(dates10), len(levels2))

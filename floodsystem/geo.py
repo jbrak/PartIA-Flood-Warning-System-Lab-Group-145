@@ -11,8 +11,8 @@ from .station import MonitoringStation
 from numpy import arcsin, cos, pi
 
 def haversine_distance(x:(float, float),y:(float, float), r:float):
-        """Takes an input of 2 coordinates and the radius of the sphere and computes the distance between the
-        2 coordinates"""
+        """Takes an input of 2 coordinates and the radius of the sphere and
+        computes the distance between the 2 coordinates"""
 
         # Convert coordinates into radians
         lat1 = x[0] * pi/180
@@ -28,8 +28,9 @@ def haversine_distance(x:(float, float),y:(float, float), r:float):
         return 2*r*arcsin(((1-cos(dlat) + cos(lat1)*cos(lat2)*(1-cos(dlong)))/2)**0.5)
 
 def stations_by_distance(stations : [MonitoringStation], p : (float, float)):
-        """Takes an input of a list of station objects and a coordinate p and returns a list of tuples in the format (station, distance)
-        where the distance is the distance between p and the station
+        """Takes an input of a list of station objects and a coordinate p and returns
+        a list of tuples in the format (station, distance) where the distance is the
+        distance between p and the station
         Parameters:
                 stations : [MonitoringStation]
                 p : (float, float)

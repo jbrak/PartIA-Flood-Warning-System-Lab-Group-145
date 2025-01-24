@@ -51,9 +51,11 @@ class MonitoringStation:
             False if inconsistent
         """
 
-        if len(self.typical_range) == 0:
+        if type(self.typical_range) != tuple:
             return False
-        elif self.typical_range[0] > self.typical_range[1]:
+        elif len(self.typical_range) != 2:
+            return False
+        elif (self.typical_range[0] > self.typical_range[1]):
             return False
         else:
             return True

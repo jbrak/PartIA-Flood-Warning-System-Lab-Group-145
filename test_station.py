@@ -35,16 +35,19 @@ def test_typical_range_consistent():
     trange1 = (-2.3, 3.4445)
     trange2 = ()
     trange3 = (3.4445, -2.3)
+    trange4 = None
     river = "River X"
     town = "My Town"
 
     s1 = MonitoringStation(s_id, m_id, label, coord, trange1, river, town)
     s2 = MonitoringStation(s_id, m_id, label, coord, trange2, river, town)
     s3 = MonitoringStation(s_id, m_id, label, coord, trange3, river, town)
+    s4 = MonitoringStation(s_id, m_id, label, coord, trange4, river, town)
 
     assert s1.typical_range_consistent() == True
     assert s2.typical_range_consistent() == False
     assert s3.typical_range_consistent() == False
+    assert s4.typical_range_consistent() == False
 
 def test_inconsistent_typical_range_stations():
     """Test for the inconsistent_typical_range_statinos method"""
@@ -55,15 +58,18 @@ def test_inconsistent_typical_range_stations():
     trange1 = (-2.3, 3.4445)
     trange2 = ()
     trange3 = (3.4445, -2.3)
+    trange4 = None
     river = "River X"
     town = "My Town"
 
     s1 = MonitoringStation(s_id, m_id, label, coord, trange1, river, town)
     s2 = MonitoringStation(s_id, m_id, label, coord, trange2, river, town)
     s3 = MonitoringStation(s_id, m_id, label, coord, trange3, river, town)
+    s4 = MonitoringStation(s_id, m_id, label, coord, trange4, river, town)
 
-    inconsistent = inconsistent_typical_range_stations([s1, s2, s3])
+    inconsistent = inconsistent_typical_range_stations([s1, s2, s3, s4])
 
-    assert len(inconsistent) == 2
+    assert len(inconsistent) == 3
     assert inconsistent[0].typical_range == trange2
     assert inconsistent[1].typical_range == trange3
+    assert inconsistent[2].typical_range == trange4

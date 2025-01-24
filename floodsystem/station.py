@@ -66,4 +66,4 @@ def inconsistent_typical_range_stations(stations:[MonitoringStation])->[Monitori
         [MonitoringStation]
     """
 
-    return [i for i in stations if not i.typical_range_consistent]
+    return [i for i in stations if not i.typical_range_consistent()]

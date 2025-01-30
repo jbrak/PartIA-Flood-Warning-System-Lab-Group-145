@@ -43,3 +43,19 @@ def stations_by_distance(stations : [MonitoringStation], p : (float, float)):
 
         # Sorts the list by the second entry, the distance
         return sorted_by_key(x=lst,i=1)
+
+def stations_within_radius(stations:[MonitoringStation], centre:(float, float), r: float):
+        """Takes an input of a list of station objects and a coordinate p and a radius r and
+        returns a list of stations that are found within those radius
+        Parameters:
+                stations : [MonitoringStation]
+                centre : (float, float)
+                r : float
+        Return:
+                [MonitoringStation]
+        """
+
+
+        distances = stations_by_distance(stations, centre)
+
+        return [i[0] for i in distances if i[1] < r]

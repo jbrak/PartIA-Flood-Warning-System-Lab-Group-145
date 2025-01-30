@@ -6,7 +6,7 @@
 import datetime
 
 from floodsystem.stationdata import build_station_list
-from floodsystem.geo import haversine_distance, stations_by_distance
+from floodsystem.geo import haversine_distance, stations_by_distance, stations_within_radius
 
 def test_haversine_distance():
     """Unit test for haversine_distance function"""
@@ -33,3 +33,20 @@ def test_stations_by_distance():
     # Check that the distance of each item is less than the item after it
     for i in range(len(distances)-1):
         assert distances[i][1] <= distances[i+1][1]
+
+def test_stations_within_radius():
+    """Unit test for the stations_within_radius function"""
+
+    # Build the list of stations
+    stations = build_station_list()
+
+    gaw_bridge = stations_within_radius(stations = stations, centre = (50.976043, -2.793549), r = 0.01)
+
+    # Check thre are no stationms within 100km of New York
+    assert len(stations_within_radius(stations = stations, centre=(40.6892, 74.0445), r = 100.0)) == 0
+
+    # Check there is only one station in the list
+    assert len(gaw_bridge) == 1
+
+    # Check that that station is Gaw Bridge
+    assert gaw_bridge[0].name == "Gaw Bridge"

@@ -13,7 +13,7 @@ ui.h2("Map Showing Flood Station Locations")
 @render_widget
 def map():
     """Function to draw map of all flood stations"""
-    map = Map(center=(52.3555, 1.1743), zoom=6)
+    map = Map(center=(52.3555, 1.1743), zoom=6, width = 1, height = 3)
 
     markers = tuple((CircleMarker(location = i.coord, radius = 3, color = "red") for i in stations))
 

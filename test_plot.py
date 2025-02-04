@@ -1,7 +1,7 @@
 # Copyright (C) 2018 Garth N. Wells
 #
 # SPDX-License-Identifier: MIT
-"""Unit test for the geo module"""
+"""Unit test for the plot module"""
 
 import datetime
 

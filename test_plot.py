@@ -15,25 +15,25 @@ def test_plot_water_levels():
 
     # Make sure only 6 stations
     try:
-        plot_water_levels(stations[:10], [[datetime.datetime(1) for i in range(10)] for i in range(10)], [[1.01 for i in range(10)] for i in range(10)])
+        plot_water_levels(stations[:10], [[datetime.datetime(day = 1, month = 1, year = 1999) for i in range(10)] for i in range(10)], [[1.01 for i in range(10)] for i in range(10)])
     except AssertionError:
         assert 1==1
 
     # Make sure number of stations matches number of levles and number of dates
     try:
-        plot_water_levels(stations[:6], [[datetime.datetime(1) for i in range(10)] for i in range(10)], [[1.01 for i in range(10)] for i in range(10)])
+        plot_water_levels(stations[:6], [[datetime.datetime(day = 1, month = 1, year = 1999) for i in range(10)] for i in range(10)], [[1.01 for i in range(10)] for i in range(10)])
     except AssertionError:
         assert 1==1
 
     # Makes sure length of each date list matches length of each level list
     try:
-        plot_water_levels(stations[:3], [[datetime.datetime(1) for i in range(1)] for i in range(3)], [[1.01 for i in range(10)] for i in range(3)])
+        plot_water_levels(stations[:3], [[datetime.datetime(day = 1, month = 1, year = 1999) for i in range(1)] for i in range(3)], [[1.01 for i in range(10)] for i in range(3)])
     except AssertionError:
         assert 1==1
 
     # Make sure that img is a string when defined
     try:
-        plot_water_levels(stations[:3], [[datetime.datetime(1) for i in range(10)] for i in range(3)], [[1.01 for i in range(10)] for i in range(3)], img = 57)
+        plot_water_levels(stations[:3], [[datetime.datetime(day = 1, month = 1, year = 1999) for i in range(10)] for i in range(3)], [[1.01 for i in range(10)] for i in range(3)], img = 57)
     except AssertionError:
         assert 1==1
 

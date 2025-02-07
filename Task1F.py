@@ -12,7 +12,7 @@ def run():
     inconsistent = inconsistent_typical_range_stations(build_station_list())
 
     # Print the names of each inconsistent weather station
-    print([i.name for i in inconsistent])
+    print(sorted([i.name for i in inconsistent]))
 
 
 

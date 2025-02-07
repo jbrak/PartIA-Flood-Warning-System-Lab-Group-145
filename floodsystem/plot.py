@@ -8,13 +8,15 @@ plotting data with matplotlib.
 import matplotlib.pyplot as plt
 from datetime import datetime
 from .station import MonitoringStation
-
+from .analysis import polyfit
+from matplotlib.dates import date2num
+import numpy as np
 
 def plot_water_levels(stations: [MonitoringStation], dates: [[datetime]], levels: [[float]], img=False):
     """A function to produce a plot of water level against time for a particular monitoring station
     Parameters:
         stations : [MonitoringStation] length between 1 and 6
-        dates : [datetime] length between 1 and 6
+        dates : [[datetime]] length between 1 and 6
         levels : [[float]] length between 1 and 6, length of sublist the same as length of sublist dates
         img : either False if you do not want an image to be returned or the filepath of the image
     returns:
@@ -82,7 +84,7 @@ def plot_water_levels(stations: [MonitoringStation], dates: [[datetime]], levels
 
     # Either return the figure or save it as an image
     if img == False:
-        return fig
+        return fig, axs, N, R
     else:
         fig.savefig(img)
 
@@ -99,3 +101,49 @@ i%3   0 1 2 0 1 2
 
 so the ith plot is located in subplot (i//3, i%2)
 """
+
+def plot_water_level_with_fit(stations: [MonitoringStation], dates: [[datetime]], levels: [[float]], p:int, img=False):
+    """A function to produce a plot of water level against time for a particular monitoring station
+        Parameters:
+            station : [MonitoringStation] length between 1 and 6
+            dates : [[datetime]] length between 1 and 6
+            levels : [[float]] length between 1 and 6, length of sublist the same as length of sublist dates
+            p : integer
+            img : either False if you do not want an image to be returned or the filepath of the image
+        returns:
+            matlplotlib figure or image
+        """
+
+    assert p >= 0
+
+    fig, axs, N, R = plot_water_levels(stations= stations, dates = dates, levels = levels)
+
+    station_regression = []
+
+    # Loops through every item
+    for i in range(len(stations)):
+        poly, d0 = polyfit(dates = dates[i], levels = levels[i], p = p)
+        station_regression.append((stations[i], poly, d0))
+
+        # Determine the location of the plot depending on the grid layout
+        if N > 1:
+            axis = axs[i // N, i % N]
+        elif R == 1:
+            axis = axs
+        else:
+            axis = axs[i]
+
+        # Calculate dates to nums
+        x = date2num(dates[i])
+
+        # Calculate the y-values for the trendline
+        y = poly(x-d0)
+
+        # Add the trendline to the axis
+        axis.plot(dates[i],y, color = "green")
+
+    # Return an image file at the defined path or return the figure objects
+    if img == False:
+        return fig
+    else:
+        fig.savefig(img)

@@ -42,7 +42,7 @@ def test_stations_within_radius():
 
     gaw_bridge = stations_within_radius(stations = stations, centre = (50.976043, -2.793549), r = 0.01)
 
-    # Check thre are no stationms within 100km of New York
+    # Check there are no stations within 100km of New York
     assert len(stations_within_radius(stations = stations, centre=(40.6892, 74.0445), r = 100.0)) == 0
 
     # Check there is only one station in the list

@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
       - name: Install dependencies
         run: |
@@ -31,6 +31,11 @@ jobs:
       - name: Run Deliverable 1 code
         run: |
           python Task1A.py
+          python Task1B.py
+          python Task1C.py
+          python Task1D.py
+          python Task1E.py
+          python Task1F.py
 
       - name: Run Deliverable 2 code
         run: |

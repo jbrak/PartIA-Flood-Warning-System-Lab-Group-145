@@ -115,6 +115,7 @@ def rivers_by_station_number(stations, N):
         rivers_dict.items(), key=lambda item: item[1].__len__(), reverse=True
     )
     res_tuple = []
+    N = len(rivers_list_sorted) if N > len(rivers_list_sorted) else N
     for i in range(N):
         res_tuple.append((rivers_list_sorted[i][0], len(rivers_list_sorted[i][1])))
     for i in range(N, len(rivers_list_sorted)):

@@ -20,7 +20,14 @@ def plot_water_levels(stations: [MonitoringStation], dates: [[datetime]], levels
         levels : [[float]] length between 1 and 6, length of sublist the same as length of sublist dates
         img : either False if you do not want an image to be returned or the filepath of the image
     returns:
-        matlplotlib figure or image
+        matlplotlib figure
+        matplotlib axis object
+        number of columns in figure
+        number of rows in figure
+
+        OR
+
+        Image file
     """
 
     # Input Validation

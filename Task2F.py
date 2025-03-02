@@ -3,22 +3,24 @@ import datetime
 from floodsystem.datafetcher import fetch_measure_levels
 from floodsystem.stationdata import build_station_list
 from floodsystem.plot import plot_water_level_with_fit
-from floodsystem.analysis import polyfit
 import matplotlib.pyplot as plt
-
+from floodsystem.stationdata import build_station_list, update_water_levels
+from floodsystem.flood import stations_highest_rel_level
 
 def run():
     # Build list of stations
     stations = build_station_list()
 
-    # first N stations to plot
-    stations1 = stations[:5]
+    update_water_levels(stations)
+
+    # Find top 5 stations with the greatest relative water levels
+    stations1 = stations_highest_rel_level(stations, 5)
 
     # Create empty lists
     dates = []
     levels = []
 
-    # Generate the dates and levles for the stations
+    # Generate the dates and levels for the stations
     for station in stations1:
         dt = 2
         date, level = fetch_measure_levels(

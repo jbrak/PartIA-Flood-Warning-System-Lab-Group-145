@@ -7,7 +7,7 @@ from shinywidgets import render_widget
 from shiny import render
 from shiny.types import ImgData
 from floodsystem.stationdata import build_station_list
-from floodsystem.plot import plot_water_levels
+from floodsystem.plot import plot_water_level_with_fit
 from floodsystem.datafetcher import fetch_measure_levels
 import datetime
 
@@ -47,7 +47,7 @@ ui.h2("Graphs showing water level against time for different stations")
 def graph():
     """ Function to plot the graphs of the water levels as an image """
 
-    plot_water_levels(stations[:6], dates, levels, img = "cache/img.png")
+    plot_water_level_with_fit(stations[:6], dates, levels,p=4, img = "cache/img.png")
 
     img: ImgData = {"src": "cache/img.png", "width" : "100%"}
     return img

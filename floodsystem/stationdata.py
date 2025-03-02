@@ -28,18 +28,20 @@ def build_station_list(use_cache=True):
     for e in data["items"]:
         # Extract town string (not always available)
         town = None
-        if 'town' in e:
-            town = e['town']
+        if "town" in e:
+            town = e["town"]
 
         # Extract river name (not always available)
         river = None
-        if 'riverName' in e:
-            river = e['riverName']
+        if "riverName" in e:
+            river = e["riverName"]
 
         # Attempt to extract typical range (low, high)
         try:
-            typical_range = (float(e['stageScale']['typicalRangeLow']),
-                             float(e['stageScale']['typicalRangeHigh']))
+            typical_range = (
+                float(e["stageScale"]["typicalRangeLow"]),
+                float(e["stageScale"]["typicalRangeHigh"]),
+            )
         except Exception:
             typical_range = None
 
@@ -47,13 +49,14 @@ def build_station_list(use_cache=True):
             # Create mesure station object if all required data is
             # available, and add to list
             s = MonitoringStation(
-                station_id=e['@id'],
-                measure_id=e['measures'][-1]['@id'],
-                label=e['label'],
-                coord=(float(e['lat']), float(e['long'])),
+                station_id=e["@id"],
+                measure_id=e["measures"][-1]["@id"],
+                label=e["label"],
+                coord=(float(e["lat"]), float(e["long"])),
                 typical_range=typical_range,
                 river=river,
-                town=town)
+                town=town,
+            )
             stations.append(s)
         except Exception:
             # Not all required data on the station was available, so
@@ -71,15 +74,14 @@ def update_water_levels(stations):
 
     # Build map from measure id to latest reading (value)
     measure_id_to_value = dict()
-    for measure in measure_data['items']:
-        if 'latestReading' in measure:
-            latest_reading = measure['latestReading']
-            measure_id = latest_reading['measure']
-            measure_id_to_value[measure_id] = latest_reading['value']
+    for measure in measure_data["items"]:
+        if "latestReading" in measure:
+            latest_reading = measure["latestReading"]
+            measure_id = latest_reading["measure"]
+            measure_id_to_value[measure_id] = latest_reading["value"]
 
     # Attach latest reading to station objects
     for station in stations:
-
         # Reset latestlevel
         station.latest_level = None
 

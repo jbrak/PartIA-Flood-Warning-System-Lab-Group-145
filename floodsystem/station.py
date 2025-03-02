@@ -6,8 +6,6 @@ for manipulating/modifying station data
 
 """
 
-from floodsystem import stationdata
-
 
 class MonitoringStation:
     """This class represents a river level monitoring station"""

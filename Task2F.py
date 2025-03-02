@@ -6,6 +6,7 @@ from floodsystem.plot import plot_water_level_with_fit
 from floodsystem.analysis import polyfit
 import matplotlib.pyplot as plt
 
+
 def run():
     # Build list of stations
     stations = build_station_list()
@@ -20,7 +21,9 @@ def run():
     # Generate the dates and levles for the stations
     for station in stations1:
         dt = 2
-        date, level = fetch_measure_levels(station.measure_id, dt=datetime.timedelta(days=dt))
+        date, level = fetch_measure_levels(
+            station.measure_id, dt=datetime.timedelta(days=dt)
+        )
 
         dates.append(date)
         levels.append(level)

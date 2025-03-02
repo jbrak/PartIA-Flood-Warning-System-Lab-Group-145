@@ -10,9 +10,7 @@ def run():
     stations = build_station_list()
 
     N = int(
-        input(
-            f"Please input the number of stations you want to include\nNote that numbers greater than 50 can take a long time\nThe total number of stations is {len(stations)}\n"
-        )
+        input(f"Please input the number of stations you want to include\nNote that numbers greater than 50 can take a long time\nThe total number of stations is {len(stations)}\n")
     )
     stations = stations[:N]
     # Update latest level data for all stations

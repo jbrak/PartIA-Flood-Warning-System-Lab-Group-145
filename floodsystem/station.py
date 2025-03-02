@@ -6,12 +6,15 @@ for manipulating/modifying station data
 
 """
 
+from floodsystem import stationdata
+
 
 class MonitoringStation:
     """This class represents a river level monitoring station"""
 
-    def __init__(self, station_id, measure_id, label, coord, typical_range,
-                 river, town):
+    def __init__(
+        self, station_id, measure_id, label, coord, typical_range, river, town
+    ):
         """Create a monitoring station."""
 
         self._station_id = station_id
@@ -83,12 +86,30 @@ class MonitoringStation:
             return False
         elif len(self.typical_range) != 2:
             return False
-        elif (self.typical_range[0] > self.typical_range[1]):
+        elif self.typical_range[0] > self.typical_range[1]:
             return False
         else:
             return True
 
-def inconsistent_typical_range_stations(stations:[MonitoringStation])->[MonitoringStation]:
+    def relative_water_level(self):
+        """
+        Returns the latest water level as a fraction of the typical range,
+        i.e. a ratio of 1.0 corresponds to a level at the typical high
+        and a ratio of 0.0 corresponds to a level at the typical low.
+        If the necessary data is not available or is inconsistent, the function should return None.
+        """
+
+        if self.typical_range_consistent() is True and self.latest_level is not None:
+            return (self.latest_level - self.typical_range[0]) / (
+                self.typical_range[1] - self.typical_range[0]
+            )
+        else:
+            return None
+
+
+def inconsistent_typical_range_stations(
+    stations: [MonitoringStation],
+) -> [MonitoringStation]:
     """Returns a list of all the stations with inconsistent typical ranges
     Parameters:
         stations : [MonitoringStation]

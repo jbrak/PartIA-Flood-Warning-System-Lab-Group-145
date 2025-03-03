@@ -68,7 +68,7 @@ def run():
             else:
                 risk_rating = "\033[31msevere\033[0m"
         else:
-            risk_rating = "low"
+            risk_rating = "\033[34mlow\033[0m"
         print(f"{town[0]} {risk_rating} {town[1]}")
 
 

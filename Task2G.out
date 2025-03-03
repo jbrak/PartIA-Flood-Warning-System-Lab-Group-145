@@ -1,0 +1,879 @@
+*** Task 2G: CUED Part IA Flood Warning System ***
+Please input the number of stations you want to include
+Note that numbers greater than 50 can take a long time
+The total number of stations is 2308
+Progress: 1/450
+Progress: 2/450
+Progress: 3/450
+Progress: 4/450
+Progress: 5/450
+Progress: 6/450
+Progress: 7/450
+Progress: 8/450
+Progress: 9/450
+Progress: 10/450
+Progress: 11/450
+Progress: 12/450
+Progress: 13/450
+Progress: 14/450
+Progress: 15/450
+Progress: 16/450
+Progress: 17/450
+Progress: 18/450
+Progress: 19/450
+Progress: 20/450
+Progress: 21/450
+Progress: 22/450
+Progress: 23/450
+Progress: 24/450
+Progress: 25/450
+Progress: 26/450
+Progress: 27/450
+Progress: 28/450
+Progress: 29/450
+Progress: 30/450
+Progress: 31/450
+Progress: 32/450
+Progress: 33/450
+Progress: 34/450
+Progress: 35/450
+Progress: 36/450
+Progress: 37/450
+Progress: 38/450
+Progress: 39/450
+Progress: 40/450
+Progress: 41/450
+Progress: 42/450
+Progress: 43/450
+Progress: 44/450
+Progress: 45/450
+Progress: 46/450
+Progress: 47/450
+Progress: 48/450
+Progress: 49/450
+Progress: 50/450
+Progress: 51/450
+Progress: 52/450
+Progress: 53/450
+Progress: 54/450
+Progress: 55/450
+Progress: 56/450
+Progress: 57/450
+Progress: 58/450
+Progress: 59/450
+Progress: 60/450
+Progress: 61/450
+Progress: 62/450
+Progress: 63/450
+Progress: 64/450
+Progress: 65/450
+Progress: 66/450
+Progress: 67/450
+Progress: 68/450
+Progress: 69/450
+Progress: 70/450
+Progress: 71/450
+Progress: 72/450
+Progress: 73/450
+Progress: 74/450
+Progress: 75/450
+Progress: 76/450
+Progress: 77/450
+Progress: 78/450
+Progress: 79/450
+Progress: 80/450
+Progress: 81/450
+Progress: 82/450
+Progress: 83/450
+Progress: 84/450
+Progress: 85/450
+Progress: 86/450
+Progress: 87/450
+Progress: 88/450
+Progress: 89/450
+Progress: 90/450
+Progress: 91/450
+Progress: 92/450
+Progress: 93/450
+Progress: 94/450
+Progress: 95/450
+Progress: 96/450
+Progress: 97/450
+Progress: 98/450
+Progress: 99/450
+Progress: 100/450
+Progress: 101/450
+Progress: 102/450
+Progress: 103/450
+Progress: 104/450
+Progress: 105/450
+Progress: 106/450
+Progress: 107/450
+Progress: 108/450
+Progress: 109/450
+Progress: 110/450
+Progress: 111/450
+Progress: 112/450
+Progress: 113/450
+Progress: 114/450
+Progress: 115/450
+Progress: 116/450
+Progress: 117/450
+Progress: 118/450
+Progress: 119/450
+Progress: 120/450
+Progress: 121/450
+Progress: 122/450
+Progress: 123/450
+Progress: 124/450
+Progress: 125/450
+Progress: 126/450
+Progress: 127/450
+Progress: 128/450
+Progress: 129/450
+Progress: 130/450
+Progress: 131/450
+Progress: 132/450
+Progress: 133/450
+Progress: 134/450
+Progress: 135/450
+Progress: 136/450
+Progress: 137/450
+Progress: 138/450
+Progress: 139/450
+Progress: 140/450
+Progress: 141/450
+Progress: 142/450
+Progress: 143/450
+Progress: 144/450
+Progress: 145/450
+Progress: 146/450
+Progress: 147/450
+Progress: 148/450
+Progress: 149/450
+Progress: 150/450
+Progress: 151/450
+Progress: 152/450
+Progress: 153/450
+Progress: 154/450
+Progress: 155/450
+Progress: 156/450
+Progress: 157/450
+Progress: 158/450
+Progress: 159/450
+Progress: 160/450
+Progress: 161/450
+Progress: 162/450
+Progress: 163/450
+Progress: 164/450
+Progress: 165/450
+Progress: 166/450
+Progress: 167/450
+Progress: 168/450
+Progress: 169/450
+Progress: 170/450
+Progress: 171/450
+Progress: 172/450
+Progress: 173/450
+Progress: 174/450
+Progress: 175/450
+Progress: 176/450
+Progress: 177/450
+Progress: 178/450
+Progress: 179/450
+Progress: 180/450
+Progress: 181/450
+Progress: 182/450
+Progress: 183/450
+Progress: 184/450
+Progress: 185/450
+Progress: 186/450
+Progress: 187/450
+Progress: 188/450
+Progress: 189/450
+Progress: 190/450
+Progress: 191/450
+Progress: 192/450
+Progress: 193/450
+Progress: 194/450
+Progress: 195/450
+Progress: 196/450
+Progress: 197/450
+Progress: 198/450
+Progress: 199/450
+Progress: 200/450
+Progress: 201/450
+Progress: 202/450
+Progress: 203/450
+Progress: 204/450
+Progress: 205/450
+Progress: 206/450
+Progress: 207/450
+Progress: 208/450
+Progress: 209/450
+Progress: 210/450
+Progress: 211/450
+Progress: 212/450
+Progress: 213/450
+Progress: 214/450
+Progress: 215/450
+Progress: 216/450
+Progress: 217/450
+Progress: 218/450
+Progress: 219/450
+Progress: 220/450
+Progress: 221/450
+Progress: 222/450
+Progress: 223/450
+Progress: 224/450
+Progress: 225/450
+Progress: 226/450
+Progress: 227/450
+Progress: 228/450
+Progress: 229/450
+Progress: 230/450
+Progress: 231/450
+Progress: 232/450
+Progress: 233/450
+Progress: 234/450
+Progress: 235/450
+Progress: 236/450
+Progress: 237/450
+Progress: 238/450
+Progress: 239/450
+Progress: 240/450
+Progress: 241/450
+Progress: 242/450
+Progress: 243/450
+Progress: 244/450
+Progress: 245/450
+Progress: 246/450
+Progress: 247/450
+Progress: 248/450
+Progress: 249/450
+Progress: 250/450
+Progress: 251/450
+Progress: 252/450
+Progress: 253/450
+Progress: 254/450
+Progress: 255/450
+Progress: 256/450
+Progress: 257/450
+Progress: 258/450
+Progress: 259/450
+Progress: 260/450
+Progress: 261/450
+Progress: 262/450
+Progress: 263/450
+Progress: 264/450
+Progress: 265/450
+Progress: 266/450
+Progress: 267/450
+Progress: 268/450
+Progress: 269/450
+Progress: 270/450
+Progress: 271/450
+Progress: 272/450
+Progress: 273/450
+Progress: 274/450
+Progress: 275/450
+Progress: 276/450
+Progress: 277/450
+Progress: 278/450
+Progress: 279/450
+Progress: 280/450
+Progress: 281/450
+Progress: 282/450
+Progress: 283/450
+Progress: 284/450
+Progress: 285/450
+Progress: 286/450
+Progress: 287/450
+Progress: 288/450
+Progress: 289/450
+Progress: 290/450
+Progress: 291/450
+Progress: 292/450
+Progress: 293/450
+Progress: 294/450
+Progress: 295/450
+Progress: 296/450
+Progress: 297/450
+Progress: 298/450
+Progress: 299/450
+Progress: 300/450
+Progress: 301/450
+Progress: 302/450
+Progress: 303/450
+Progress: 304/450
+Progress: 305/450
+Progress: 306/450
+Progress: 307/450
+Progress: 308/450
+Progress: 309/450
+Progress: 310/450
+Progress: 311/450
+Progress: 312/450
+Progress: 313/450
+Progress: 314/450
+Progress: 315/450
+Progress: 316/450
+Progress: 317/450
+Progress: 318/450
+Progress: 319/450
+Progress: 320/450
+Progress: 321/450
+Progress: 322/450
+Progress: 323/450
+Progress: 324/450
+Progress: 325/450
+Progress: 326/450
+Progress: 327/450
+Progress: 328/450
+Progress: 329/450
+Progress: 330/450
+Progress: 331/450
+Progress: 332/450
+Progress: 333/450
+Progress: 334/450
+Progress: 335/450
+Progress: 336/450
+Progress: 337/450
+Progress: 338/450
+Progress: 339/450
+Progress: 340/450
+Progress: 341/450
+Progress: 342/450
+Progress: 343/450
+Progress: 344/450
+Progress: 345/450
+Progress: 346/450
+Progress: 347/450
+Progress: 348/450
+Progress: 349/450
+Progress: 350/450
+Progress: 351/450
+Progress: 352/450
+Progress: 353/450
+Progress: 354/450
+Progress: 355/450
+Progress: 356/450
+Progress: 357/450
+Progress: 358/450
+Progress: 359/450
+Progress: 360/450
+Progress: 361/450
+Progress: 362/450
+Progress: 363/450
+Progress: 364/450
+Progress: 365/450
+Progress: 366/450
+Progress: 367/450
+Progress: 368/450
+Progress: 369/450
+Progress: 370/450
+Progress: 371/450
+Progress: 372/450
+Progress: 373/450
+Progress: 374/450
+Progress: 375/450
+Progress: 376/450
+Progress: 377/450
+Progress: 378/450
+Progress: 379/450
+Progress: 380/450
+Progress: 381/450
+Progress: 382/450
+Progress: 383/450
+Progress: 384/450
+Progress: 385/450
+Progress: 386/450
+Progress: 387/450
+Progress: 388/450
+Progress: 389/450
+Progress: 390/450
+Progress: 391/450
+Progress: 392/450
+Progress: 393/450
+Progress: 394/450
+Progress: 395/450
+Progress: 396/450
+Progress: 397/450
+Progress: 398/450
+Progress: 399/450
+Progress: 400/450
+Progress: 401/450
+Progress: 402/450
+Progress: 403/450
+Progress: 404/450
+Progress: 405/450
+Progress: 406/450
+Progress: 407/450
+Progress: 408/450
+Progress: 409/450
+Progress: 410/450
+Progress: 411/450
+Progress: 412/450
+Progress: 413/450
+Progress: 414/450
+Progress: 415/450
+Progress: 416/450
+Progress: 417/450
+Progress: 418/450
+Progress: 419/450
+Progress: 420/450
+Progress: 421/450
+Progress: 422/450
+Progress: 423/450
+Progress: 424/450
+Progress: 425/450
+Progress: 426/450
+Progress: 427/450
+Progress: 428/450
+Progress: 429/450
+Progress: 430/450
+Progress: 431/450
+Progress: 432/450
+Progress: 433/450
+Progress: 434/450
+Progress: 435/450
+Progress: 436/450
+Progress: 437/450
+Progress: 438/450
+Progress: 439/450
+Progress: 440/450
+Progress: 441/450
+Progress: 442/450
+Progress: 443/450
+Progress: 444/450
+Progress: 445/450
+Progress: 446/450
+Progress: 447/450
+Progress: 448/450
+Progress: 449/450
+Progress: 450/450
+Whaddon [31msevere[0m 1.9241379310344824
+Salisbury [38;2;255;165;0mhigh[0m 1.2785145888594165
+Bagnor [38;2;255;165;0mhigh[0m 1.10062893081761
+Idmiston [38;2;255;165;0mhigh[0m 0.96
+Sheepwash Bridge [38;2;255;165;0mhigh[0m 0.9477777777777776
+Welney Causeway [38;2;255;165;0mhigh[0m 0.9283874291602268
+Stamford [38;2;255;165;0mhigh[0m 0.8226744186046512
+Oulton Broad [33mmoderate[0m 0.7662337662337662
+Lancaster [33mmoderate[0m 0.7284083566659487
+Nunton [33mmoderate[0m 0.6897133220910625
+Torksey [33mmoderate[0m 0.6676923076923076
+Washford [33mmoderate[0m 0.6477272727272728
+Cricklade [33mmoderate[0m 0.64
+Stratton [33mmoderate[0m 0.6237942122186495
+St Erth [33mmoderate[0m 0.6127886323268205
+Chertsey [33mmoderate[0m 0.6125461254612545
+Cheltenham [33mmoderate[0m 0.5947368421052631
+Longford [33mmoderate[0m 0.5758241758241758
+Gloucester [33mmoderate[0m 0.5481852586193331
+Newby Bridge [33mmoderate[0m 0.5472043996333639
+Bekesbourne [33mmoderate[0m 0.5340086830680174
+Deerhurst [33mmoderate[0m 0.5250626566416039
+Swindon [33mmoderate[0m 0.523972602739726
+Derwent Water at Lodore [33mmoderate[0m 0.5100896860986547
+Sankey [33mmoderate[0m 0.5040524893863374
+Elkesley [33mmoderate[0m 0.5031796502384738
+Trengune [33mmoderate[0m 0.4808558558558559
+Medbourne [33mmoderate[0m 0.46350364963503654
+Surfleet Seas End [33mmoderate[0m 0.45503355704697984
+Harbertonford [33mmoderate[0m 0.45350270998055964
+Alton [33mmoderate[0m 0.448
+Bourn [33mmoderate[0m 0.4343065693430657
+New Alresford [33mmoderate[0m 0.4288888888888889
+Ewell [33mmoderate[0m 0.425173439048563
+Nun Appleton [33mmoderate[0m 0.40242587601078167
+Boynton [33mmoderate[0m 0.39857142857142863
+Frampton Cotterell [33mmoderate[0m 0.39171974522293
+Bidford on Avon [33mmoderate[0m 0.3835866261398177
+Castle Howe [33mmoderate[0m 0.3763288447909284
+Wendron [33mmoderate[0m 0.369969040247678
+Ewen [33mmoderate[0m 0.36767676767676766
+Bray [33mmoderate[0m 0.35891089108910884
+Bickley [33mmoderate[0m 0.34580098800282283
+Mitford [33mmoderate[0m 0.3440134907251265
+The Mythe [33mmoderate[0m 0.3408521303258146
+Ingworth [33mmoderate[0m 0.34012219959266793
+Gillingham [33mmoderate[0m 0.33727034120734917
+Taplow [33mmoderate[0m 0.334375
+Huntingford [33mmoderate[0m 0.3284313725490196
+Culham [33mmoderate[0m 0.3252032520325204
+East Farleigh [33mmoderate[0m 0.32072072072072066
+Went Green [33mmoderate[0m 0.31413612565445026
+Goodleigh [33mmoderate[0m 0.3107476635514019
+Yeaton [33mmoderate[0m 0.3097643097643098
+Wykeham [33mmoderate[0m 0.30504466631634264
+Chollerford [33mmoderate[0m 0.3025751072961374
+Kirk Hammerton [33mmoderate[0m 0.30195663670015865
+Hothfield [33mmoderate[0m 0.2867756315007429
+Silsden [33mmoderate[0m 0.28502415458937197
+Crewgreen [33mmoderate[0m 0.2824655894673848
+Ross On Wye [33mmoderate[0m 0.2773251866938221
+Bickington [33mmoderate[0m 0.2734254992319509
+Lakenheath [33mmoderate[0m 0.2666666666666669
+Northern Moor [33mmoderate[0m 0.26137377341659235
+Ludlow [33mmoderate[0m 0.26119402985074625
+Peterchurch [33mmoderate[0m 0.2611717974180735
+Wanstead [33mmoderate[0m 0.2543659832953683
+Litton Cheney [33mmoderate[0m 0.2536945812807882
+Branston [34mlow[0m 0.23529411764705888
+Ewelme [34mlow[0m 0.23389021479713604
+Evesham [34mlow[0m 0.225
+Evenlode [34mlow[0m 0.21960784313725493
+Stoke D'abernon [34mlow[0m 0.21030805687203788
+Brendon [34mlow[0m 0.20878274268104785
+Bures [34mlow[0m 0.2053072625698324
+Tixover [34mlow[0m 0.19034608378870668
+Thorpe In Balne [34mlow[0m 0.18490189557698705
+Partney [34mlow[0m 0.18010291595197256
+Beddington [34mlow[0m 0.1752442996742671
+Hall Dunnerdale [34mlow[0m 0.17436305732484078
+St Breward [34mlow[0m 0.16981132075471697
+Navestock Heath [34mlow[0m 0.16657027183342973
+Hammoon [34mlow[0m 0.16273291925465838
+Bainbridge [34mlow[0m 0.16264751154438173
+Wansford [34mlow[0m 0.1571072319201995
+Mevagissey [34mlow[0m 0.15106382978723407
+Newburgh [34mlow[0m 0.14413680781758959
+Capernwray [34mlow[0m 0.14035087719298245
+Haltwhistle [34mlow[0m 0.13358778625954196
+Worcester [34mlow[0m 0.12883654532476801
+Bristol [34mlow[0m 0.12866980790141352
+Bridge Rule [34mlow[0m 0.12720519962859797
+Marhamchurch [34mlow[0m 0.12531328320802007
+Miller Bridge [34mlow[0m 0.12364760432766608
+Levisham [34mlow[0m 0.12228260869565215
+Burton-Le-Coggles [34mlow[0m 0.11746031746031746
+Drayton [34mlow[0m 0.1167953667953668
+Temple Sowerby [34mlow[0m 0.1167857142857143
+Leagrave [34mlow[0m 0.11361867704280156
+Rolleston On Dove [34mlow[0m 0.11128775834658189
+Tan Hall [34mlow[0m 0.10995260663507121
+Princes Marsh [34mlow[0m 0.1048780487804878
+Hovingham [34mlow[0m 0.10276679841897234
+Low Moor [34mlow[0m 0.09974176888315042
+Netherside Hall [34mlow[0m 0.0894736842105263
+Cornwood [34mlow[0m 0.0890165111270639
+Furneux Pelham [34mlow[0m 0.08692307692307692
+Hamerton [34mlow[0m 0.08691983122362884
+Burstwick [34mlow[0m 0.08352668213457078
+St Michael's On Wyre [34mlow[0m 0.07491329479768787
+Redesmouth [34mlow[0m 0.067966573816156
+Great Glen [34mlow[0m 0.05763546798029557
+Clitheroe [34mlow[0m 0.049965776865160835
+Sowerby Bridge [34mlow[0m 0.04785714285714286
+Alston [34mlow[0m 0.04469914040114614
+Allendale Town [34mlow[0m 0.03651856360316494
+Nelson [34mlow[0m 0.03201082055906221
+Threlkeld [34mlow[0m 0.030666666666666693
+Bromley [34mlow[0m 0.028607755880483143
+Farnworth [34mlow[0m 0.023655913978494616
+Letcombe Regis [34mlow[0m 0.021739130434782615
+Wakefield [34mlow[0m 0.0149812734082397
+Chineham [34mlow[0m 0.01277740416946874
+Hedon Westlands Drain [34mlow[0m 0.008333333333333333
+Worsbrough [34mlow[0m 0.0017857142857142874
+North Middleton [34mlow[0m 0.0017167381974248883
+Little Rissington [34mlow[0m 0
+Kingsbury Episcopi [34mlow[0m 0
+Hemingford Grey [34mlow[0m 0
+Bilsborrow [34mlow[0m 0
+Ardingly [34mlow[0m 0
+Winterbourne [34mlow[0m 0
+Lovington [34mlow[0m 0
+Goulceby [34mlow[0m 0
+Manchester [34mlow[0m 0
+Haslingfield [34mlow[0m 0
+Pinner [34mlow[0m 0
+Kingston Upon Thames [34mlow[0m 0
+Addingham [34mlow[0m 0
+Rochdale [34mlow[0m 0
+Bragbury End [34mlow[0m 0
+Lugwardine [34mlow[0m 0
+Darfield [34mlow[0m 0
+Stroud [34mlow[0m 0
+Prestbury [34mlow[0m 0
+Victoria Bridge, Kendal [34mlow[0m 0
+Bitton [34mlow[0m 0
+Wimborne Minster [34mlow[0m 0
+Dawlish [34mlow[0m 0
+Sudbury [34mlow[0m 0
+Claypole [34mlow[0m 0
+Little Alne [34mlow[0m 0
+Alwinton [34mlow[0m 0
+Heacham [34mlow[0m 0
+Rewe [34mlow[0m 0
+Brigg [34mlow[0m 0
+North America [34mlow[0m 0
+Romanby [34mlow[0m 0
+Hungerford [34mlow[0m 0
+Colden Common [34mlow[0m 0
+Walthamstow [34mlow[0m 0
+Carlisle [34mlow[0m 0
+Sinnington [34mlow[0m 0
+Sleaford [34mlow[0m 0
+Bristol Harbour Passage Street [34mlow[0m 0
+Copley [34mlow[0m 0
+Denham [34mlow[0m 0
+Lenton [34mlow[0m 0
+Scotter [34mlow[0m 0
+Eamont Bridge [34mlow[0m 0
+Salwarpe [34mlow[0m 0
+Mitchell Wyke Ferry Bay [34mlow[0m 0
+Chingford [34mlow[0m 0
+Bridge Trafford [34mlow[0m 0
+Loddiswell [34mlow[0m 0
+Scayne's Hill [34mlow[0m 0
+Killamarsh [34mlow[0m 0
+Staines [34mlow[0m 0
+Filgrave [34mlow[0m 0
+Trowbridge [34mlow[0m 0
+Aldington [34mlow[0m 0
+Abingdon [34mlow[0m 0
+Milton On Stour [34mlow[0m 0
+Mansfield [34mlow[0m 0
+Broadclyst [34mlow[0m 0
+Bransford [34mlow[0m 0
+Dodford [34mlow[0m 0
+Winchester [34mlow[0m 0
+Thirsk [34mlow[0m 0
+Castleton [34mlow[0m 0
+Bredbury [34mlow[0m 0
+Bulwell [34mlow[0m 0
+Hebden Bridge [34mlow[0m 0
+Haydon Wick [34mlow[0m 0
+Edgware [34mlow[0m 0
+Sawbridgeworth [34mlow[0m 0
+Witham Friary [34mlow[0m 0
+Stanstead [34mlow[0m 0
+Bridge End [34mlow[0m 0
+Chartham [34mlow[0m 0
+Barnsley [34mlow[0m 0
+Kingsnorth [34mlow[0m 0
+Catford [34mlow[0m 0
+East Budleigh [34mlow[0m 0
+Beaminster [34mlow[0m 0
+Windley [34mlow[0m 0
+Butts Bridge [34mlow[0m 0
+Evedon [34mlow[0m 0
+Cockfield [34mlow[0m 0
+Beetham [34mlow[0m 0
+Crookham Village [34mlow[0m 0
+Beacon End [34mlow[0m 0
+North Wootton [34mlow[0m 0
+Leek [34mlow[0m 0
+Cononley [34mlow[0m 0
+Waltham Abbey [34mlow[0m 0
+St Blazey [34mlow[0m 0
+St Ives [34mlow[0m 0
+Shrewsbury [34mlow[0m 0
+Colney Street [34mlow[0m 0
+Ladock [34mlow[0m 0
+Maunby [34mlow[0m 0
+Reading [34mlow[0m 0
+Pentlow [34mlow[0m 0
+Old Whittington [34mlow[0m 0
+Horley [34mlow[0m 0
+Radcliffe [34mlow[0m 0
+Kennington [34mlow[0m 0
+Meaford [34mlow[0m 0
+Diss [34mlow[0m 0
+Bridport [34mlow[0m 0
+Woolsington [34mlow[0m 0
+Buckland Monachorum [34mlow[0m 0
+Ilam [34mlow[0m 0
+Botcherby, Carlisle [34mlow[0m 0
+Kingthorpe [34mlow[0m 0
+Horncastle [34mlow[0m 0
+Holme Pierrepont [34mlow[0m 0
+Edenbridge [34mlow[0m 0
+Othery [34mlow[0m 0
+Sandling [34mlow[0m 0
+Sheffield [34mlow[0m 0
+West Drayton [34mlow[0m 0
+Bampton Grange [34mlow[0m 0
+Arlesey [34mlow[0m 0
+Wigan [34mlow[0m 0
+Mithian [34mlow[0m 0
+Bruton [34mlow[0m 0
+Bishops Hull [34mlow[0m 0
+Kegworth [34mlow[0m 0
+Brigsley [34mlow[0m 0
+Wytham [34mlow[0m 0
+Upwey [34mlow[0m 0
+Swallowfield [34mlow[0m 0
+Waltham Cross [34mlow[0m 0
+Bamford [34mlow[0m 0
+Boultham [34mlow[0m 0
+Northolt [34mlow[0m 0
+Burrington [34mlow[0m 0
+Thame [34mlow[0m 0
+Tytherton Lucas [34mlow[0m 0
+Wincanton [34mlow[0m 0
+Helston [34mlow[0m 0
+Middleton [34mlow[0m 0
+Wennington [34mlow[0m 0
+Cheshunt [34mlow[0m 0
+Tiverton [34mlow[0m 0
+Batley Carlinghow  (up stream) [34mlow[0m 0
+Little Bollington [34mlow[0m 0
+Northallerton [34mlow[0m 0
+Radlett [34mlow[0m 0
+Grendon Underwood [34mlow[0m 0
+Higher Wincham [34mlow[0m 0
+Wanborough [34mlow[0m 0
+Lincoln [34mlow[0m 0
+Trowlock Island [34mlow[0m 0
+Beckfoot [34mlow[0m 0
+Park Farm [34mlow[0m 0
+Sprouston [34mlow[0m 0
+North Tidworth [34mlow[0m 0
+Tideford [34mlow[0m 0
+Euxton [34mlow[0m 0
+Walcot [34mlow[0m 0
+Satterthwaite [34mlow[0m 0
+Bodicote [34mlow[0m 0
+Chipping Ongar [34mlow[0m 0
+Streatley [34mlow[0m 0
+High Green [34mlow[0m 0
+Smithy Houses [34mlow[0m 0
+Appleton [34mlow[0m 0
+Sturmer [34mlow[0m 0
+Little Bytham [34mlow[0m 0
+Barbrook [34mlow[0m 0
+Stokesley [34mlow[0m 0
+Semington [34mlow[0m 0
+Kislingbury [34mlow[0m 0
+Todmorden [34mlow[0m 0
+Ollerton [34mlow[0m 0
+Woodlesford [34mlow[0m 0
+Croft-on-Tees [34mlow[0m 0
+Burnley [34mlow[0m 0
+Hartford Bridge [34mlow[0m 0
+Isleham [34mlow[0m 0
+Exminster [34mlow[0m 0
+Lostwithiel [34mlow[0m 0
+Hemel Hempstead [34mlow[0m 0
+Aycliffe Village [34mlow[0m 0
+Whitwick [34mlow[0m 0
+Chapel Hill [34mlow[0m 0
+Fordcombe [34mlow[0m 0
+Fairmile [34mlow[0m 0
+Barrow Upon Soar [34mlow[0m 0
+Sandiacre [34mlow[0m 0
+Tibberton [34mlow[0m 0
+Burford [34mlow[0m 0
+Houghton Le Spring [34mlow[0m 0
+Naburn [34mlow[0m 0
+Rothley [34mlow[0m 0
+Totteridge [34mlow[0m 0
+Newton Abbot [34mlow[0m 0
+Marham [34mlow[0m 0
+Lapford [34mlow[0m 0
+Thuxton [34mlow[0m 0
+East Molesey [34mlow[0m 0
+Piddlehinton [34mlow[0m 0
+Ampney St Peter [34mlow[0m 0
+Great Chesterford [34mlow[0m 0
+Mountnessing [34mlow[0m 0
+Ravenshaw [34mlow[0m 0
+Hellifield [34mlow[0m 0
+Wheatley [34mlow[0m 0
+Nether Poppleton [34mlow[0m 0
+Cowley [34mlow[0m 0
+Braunton [34mlow[0m 0
+Huish Episcopi [34mlow[0m 0
+High Ongar [34mlow[0m 0
+Warenford [34mlow[0m 0
+West Farleigh [34mlow[0m 0
+Lechlade On Thames [34mlow[0m 0
+Brabling Green [34mlow[0m 0
+Stanhope [34mlow[0m 0
+Felldownhead [34mlow[0m 0
+Old Woking [34mlow[0m 0
+Bampton [34mlow[0m 0
+Laceby [34mlow[0m 0
+Ousden [34mlow[0m 0
+Huddersfield [34mlow[0m 0
+Ifield [34mlow[0m 0
+Urmston [34mlow[0m 0
+Major's Green [34mlow[0m 0
+Huntington [34mlow[0m 0
+Wendlebury [34mlow[0m 0
+East Lyng [34mlow[0m 0
+Three Elms [34mlow[0m 0
+Chobham [34mlow[0m 0
+Low Coniscliffe [34mlow[0m 0
+Winterbourne Monkton [34mlow[0m 0
+Liversedge [34mlow[0m 0
+North Cheam [34mlow[0m 0
+Hertford [34mlow[0m 0
+Tregony [34mlow[0m 0
+Taunton Market [34mlow[0m 0
+Honiton [34mlow[0m 0
+Darlington [34mlow[0m 0
+Ferrybridge [34mlow[0m 0
+Leeds [34mlow[0m 0
+Newton-On-Rawcliffe [34mlow[0m 0
+Newport Pagnell [34mlow[0m 0
+Callow End [34mlow[0m 0
+Bodiam [34mlow[0m 0
+Hurst Green [34mlow[0m 0
+Edmonton [34mlow[0m 0
+Hollins [34mlow[0m 0
+Brant Broughton [34mlow[0m 0
+Newick [34mlow[0m 0
+Rickmansworth [34mlow[0m 0
+Charles [34mlow[0m 0
+Stanmore [34mlow[0m 0
+Nottingham [34mlow[0m 0
+Colne Engaine [34mlow[0m 0
+West Bridgford [34mlow[0m 0
+Pershore [34mlow[0m 0
+Penberth [34mlow[0m 0
+Nunnykirk [34mlow[0m 0
+Catterick Village [34mlow[0m 0
+Upton Hellions [34mlow[0m 0
+Common Moor [34mlow[0m 0
+New York [34mlow[0m 0
+Winsham [34mlow[0m 0
+Eathorpe [34mlow[0m 0
+Brierfield [34mlow[0m 0
+Maidenhead [34mlow[0m 0
+Middleton-On-Leven [34mlow[0m 0
+Sutton Gault [34mlow[0m 0
+Hexham [34mlow[0m 0
+Lifton [34mlow[0m 0
+Marston Green [34mlow[0m 0
+Redbourn [34mlow[0m 0
+Hunsingore [34mlow[0m 0
+Esher [34mlow[0m 0
+Pointon [34mlow[0m 0
+Welwyn [34mlow[0m 0
+Albury [34mlow[0m 0
+Radcot [34mlow[0m 0
+Hessle [34mlow[0m 0
+Southstoke [34mlow[0m 0
+Robertsbridge [34mlow[0m 0
+Lilbourne [34mlow[0m 0
+Byton [34mlow[0m 0
+South Newton [34mlow[0m 0
+Frisby on the Wreake [34mlow[0m 0
+North Bovey [34mlow[0m 0
+Cleator [34mlow[0m 0
+Marsden [34mlow[0m 0
+Bellingham [34mlow[0m -0.0006738544474393537
+Kirkburton [34mlow[0m -0.005060728744939271
+Finchley [34mlow[0m -0.006909547738693473
+Wigton [34mlow[0m -0.014166666666666668
+Samlesbury [34mlow[0m -0.015447154471544697
+Hackbridge [34mlow[0m -0.055806938159879214
+Kirby Sigston [34mlow[0m -0.07066381156316917
+Fremington [34mlow[0m -0.09222222222222222
+Moreton [34mlow[0m -0.10512820512820507
+Bolton Percy [34mlow[0m -0.12433734939759035
+Thetford [34mlow[0m -0.3162393162393156
